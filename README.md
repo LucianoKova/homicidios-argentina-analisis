@@ -1,3 +1,6 @@
+![R](https://img.shields.io/badge/R-4.5.2-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 # Análisis de Homicidios en Argentina (SNIC) — R
 
 ## Descripción
