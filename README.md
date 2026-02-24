@@ -23,3 +23,5 @@ Este proyecto analiza homicidios dolosos en Argentina utilizando R.
 Abrir R en la carpeta del proyecto y ejecutar:
 
 source("script.R")
+## Gráfico
+![Homicidios por año](grafico.png)
