@@ -1,27 +1,28 @@
-# Análisis de Homicidios en Argentina
+# Análisis de Homicidios en Argentina (SNIC) — R
 
-Este proyecto analiza homicidios dolosos en Argentina utilizando R.
+## Descripción
+Este repositorio contiene un análisis descriptivo de los registros del **Sistema Nacional de Información Criminal (SNIC)**, enfocado en **homicidios dolosos**. El flujo de trabajo carga un archivo CSV, filtra el delito de interés, agrega la información por año y genera salidas reproducibles (gráficos y un resumen).
 
-## Qué hace el script
+## Objetivos
+- Cargar y explorar el dataset en formato CSV.
+- Filtrar el delito **“Homicidios dolosos”**.
+- Calcular la cantidad anual de víctimas.
+- Generar visualizaciones y un resumen textual automatizado.
 
-- Carga un CSV
-- Filtra homicidios dolosos
-- Calcula víctimas por año
-- Genera gráficos:
-  - Evolución anual
-  - Comparación masculino vs femenino
-- Genera un resumen con el año con más y menos víctimas
+## Requisitos
+- R (probado en R 4.5.2 en Windows).
+- No se requieren paquetes adicionales (se utiliza R base).
 
-## Archivos generados
+## Estructura del proyecto
+- `data/`: datos de entrada (CSV).
+- `script.R`: script principal (carga, procesamiento y generación de salidas).
+- `grafico.png`: evolución anual de víctimas (salida).
+- `grafico_sexo.png`: comparación anual por sexo (salida, si se generó).
+- `resumen.txt`: resumen automatizado (salida).
 
-- grafico.png
-- grafico_sexo.png
-- resumen.txt
+## Ejecución
+1. Asegurarse de que el archivo CSV se encuentre en `data/datos.csv`.
+2. Ejecutar el script desde R, ubicado en la raíz del proyecto:
 
-## Cómo ejecutar
-
-Abrir R en la carpeta del proyecto y ejecutar:
-
+```r
 source("script.R")
-## Gráfico
-![Homicidios por año](grafico.png)
