@@ -12,6 +12,16 @@ Este repositorio contiene un análisis descriptivo de los registros del **Sistem
 - Calcular la cantidad anual de víctimas.
 - Generar visualizaciones y un resumen textual automatizado.
 
+## Metodología
+
+1. Carga del dataset en formato CSV.
+2. Filtrado del delito "Homicidios dolosos".
+3. Agregación de víctimas por año.
+4. Generación de visualizaciones.
+5. Exportación de resultados reproducibles.
+
+El análisis se realizó utilizando exclusivamente R base.
+
 ## Requisitos
 - R (probado en R 4.5.2 en Windows).
 - No se requieren paquetes adicionales (se utiliza R base).
@@ -29,3 +39,13 @@ Este repositorio contiene un análisis descriptivo de los registros del **Sistem
 
 ```r
 source("script.R")
+## Conclusiones
+
+El análisis permite observar la evolución anual de víctimas de homicidios dolosos y su distribución por sexo.  
+Los resultados evidencian diferencias significativas entre víctimas masculinas y femeninas, lo que abre la puerta a futuros análisis más profundos (tendencias, tasas por población, análisis regional, etc.).
+
+Este proyecto demuestra el uso de R para:
+- Manipulación de datos
+- Agregación estadística
+- Visualización
+- Generación de resultados reproducibles
